@@ -90,6 +90,7 @@ public class SnowflakeId implements IdGenerator {
      * 
      * @return
      */
+    @Override
     public synchronized long nextId() {
         long timestamp = timeGen();
 
